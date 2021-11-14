@@ -1,0 +1,13 @@
+In questo esempio abbiamo una chat. Se scriviamo una delle parole offensive oppure una delle parole proibite
+abbiamo un decoratore che decora il testo, nel primo caso bippandola, nel secondo caso aggiungendo la stringa "il clown".
+La distinzione del decoratore da utilizzare avviene nella classe Chat, nel metodo ControllaFrase. Ogni volta che invio un messaggio,
+controllo, della frase, parola per parola ed invoco l'opportuno decoratore. 
+
+La classe Parola è l'interfaccia comune sia al decoratore che al componente concreto.
+La classe ParolaConcreta è il componente concreto è fa una stampa della stringa passatagli,
+che potrà essere decorata.
+La classe Decoratore è il decoratore che delega a decorazione della stringa alle sue sottoclassi concrete.
+Le due classi DecoratoreOffensivo e DecoratorePersonalizzato sono le due sottoclassi concrete di decoratore
+(ne possiamo aggiungere di più).
+
+Avviare dal main

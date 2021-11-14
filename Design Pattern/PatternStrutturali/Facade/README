@@ -1,0 +1,4 @@
+Per questo pattern ho sfruttato i package di Java. In questo modo, il client avvia la classe Facade senza
+chiamare le altre classe.
+
+Avviare dalla classe Facade nel package facade.

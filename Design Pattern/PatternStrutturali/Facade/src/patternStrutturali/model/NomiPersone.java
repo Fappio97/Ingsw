@@ -13,7 +13,7 @@ public class NomiPersone {
 	
 	private NomiPersone() {
 		File file = new File(getClass().getResource("/patternStrutturali/resources/persone").getPath());
-
+		
 		persone = new ArrayList<String>();
 		
 		// prende la lista dei file
