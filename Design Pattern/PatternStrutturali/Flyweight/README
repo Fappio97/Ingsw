@@ -1,0 +1,5 @@
+In questo esempio vogliamo creare più palline. Alcune caratteristiche delle palline non cambiano mai, 
+come il loro colore, mentre altre caratteristiche cambiano, come la sua posizione.
+La classe TipoPallina è la classe Flyweight.
+La classe CreatoreTipoPalline è la Factory, interpellata dalla classe App ogni volta che andiamo a creare
+una nuova pallina. Se abbiamo già un oggetto di TipoPallina ci viene restituita altrimenti viene creata.
