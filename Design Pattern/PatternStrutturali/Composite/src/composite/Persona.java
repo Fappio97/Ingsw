@@ -1,6 +1,6 @@
 package composite;
 
-public class Persona implements DatiPersona {
+public class Persona implements Dati {
 	
 	private String nome;
 	private String cognome;
@@ -34,13 +34,13 @@ public class Persona implements DatiPersona {
 	}
 
 	@Override
-	public void aggiungi(DatiPersona p) {
+	public void aggiungi(Dati p) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void rimuovi(DatiPersona p) {
+	public void rimuovi(Dati p) {
 		// TODO Auto-generated method stub
 		
 	}

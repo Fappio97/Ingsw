@@ -3,7 +3,7 @@ package composite;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Famiglia implements DatiPersona {
+public class Famiglia implements Dati {
 	
 	String cognomeFamiglia;
 	
@@ -11,10 +11,10 @@ public class Famiglia implements DatiPersona {
 		this.cognomeFamiglia = cognomeFamiglia;
 	}
 	
-	protected List<DatiPersona> figli = new ArrayList<DatiPersona>();
+	protected List<Dati> figli = new ArrayList<Dati>();
 
 
-	public List<DatiPersona> getFigli() {
+	public List<Dati> getFigli() {
 		return figli;
 	}
 
@@ -37,13 +37,13 @@ public class Famiglia implements DatiPersona {
 	}
 
 	@Override
-	public void aggiungi(DatiPersona p) {
+	public void aggiungi(Dati p) {
 		// TODO Auto-generated method stub
 		figli.add(p);
 	}
 
 	@Override
-	public void rimuovi(DatiPersona p) {
+	public void rimuovi(Dati p) {
 		// TODO Auto-generated method stub
 		figli.remove(p);
 	}
@@ -52,7 +52,7 @@ public class Famiglia implements DatiPersona {
 	public void stampa() {
 		// TODO Auto-generated method stub
 		System.out.println("Famiglia " + cognomeFamiglia + " composta da:");
-		for(DatiPersona i : figli) {
+		for(Dati i : figli) {
 			if(i instanceof Famiglia)
 				System.out.print("	+ ");
 			else

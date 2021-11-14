@@ -1,0 +1,5 @@
+In questo esempio faccio delle stampe sulla console. 
+L'interfaccia Dati ha i metodi comuni sia ai nodi che alle foglie.
+La mia foglia è la classe Persona, la quale può oppure non avere una famiglia.
+La classe nodo è la classe Famiglia, la quale può avere persone al suo interno oppure altre famiglie,
+interpretabili come quando due persone di famiglie diverse si sposano.

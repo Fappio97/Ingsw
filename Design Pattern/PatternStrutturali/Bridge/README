@@ -1,0 +1,5 @@
+In questo esempio possiamo stampare figure geometriche di diversi colori.
+Il bridge è creato dalle figure geometriche al colore di quest'ultime, per evitare di avere classi diverse per
+ogni colore in cui è possibile rappresentare quella figura.
+
+La classe FiguraGeometrica estende delle sottoclassi dei vari oggetti al quale vi è collegato un opportuno colore concreto.
