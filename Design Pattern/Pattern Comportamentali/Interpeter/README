@@ -1,0 +1,12 @@
+Per questo esercizio ho realizzato un semplice programma per il calcolo di espressioni aritmetiche, eseguendo il primo
+operatore più a sinistra con i due primi numeri e via dicendo.
+
+Della stringa passata le espressioni terminali sono i numeri, mentre i vari operatori sono espressioni composte
+da espressioni terminali. Sono tutti operatori binari.
+
+Nella classe App, escludo tutte le possibilità ad eccezione di quella in cui il numero di espressioni terminali è esattamente
+pari al numero di espressioni composte + 1, questo perché tutti gli operatori che ho messo sono operatori binari.
+Inoltre non è possibile inserire altri tipi di carattere ad eccezione di numeri e degli operatori espressi nelle 
+espressioni composite.
+
+Avviare dal Main

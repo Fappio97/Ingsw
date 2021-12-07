@@ -1,0 +1,12 @@
+Per questo pattern ho realizzato un esercizio che scorre una lista di città ordinate secondo
+due tipologie di parametri, per recensioni della città oppure in base al loro affollamento.
+
+La classe Iteratore è la classe astratta che ha le due sottoclassi concrete
+IteratoreSP ed IteratoreTP, le quali iterano sulle classi concrete della classe
+astratta ContenitoreCitta, rispettivamente SecondoParametro e TerzoParametro.
+
+La classe ContenitoreCitta, ovvero quella che contiene la struttura dati, rimanda alle sue sottoclassi l'istanziazione dell'iteratore opportuno.
+
+
+Avviare con il comando:
+g++ -std=c++11  Main.cpp Citta.cpp IteratoreSP.cpp IteratoreTP.cpp SecondoParametro.cpp TerzoParametro.cpp
