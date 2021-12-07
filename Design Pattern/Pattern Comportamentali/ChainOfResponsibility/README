@@ -1,0 +1,13 @@
+Per questo esercizio mi sono basato sulla traccia data dal Prof a lezione.
+
+Una serie di stampanti che se sono libere ed adeguate a stampare a colori, nel caso in cui
+il documento è a colori, e possono stampare il documento in quel formato lo stampano, altrimenti
+rinviano il documento alla successiva stampante collegata.
+
+Stampante è la mia classe gestore dove definisco il codice standard alle sue sottoclassi concrete.
+StampanteBiancoNero e Stampante a colori sono le sottoclassi concrete.
+
+La catena fra le stampanti la genero nella classe App, quando dall'interfaccia creo una nuova stampante,
+collego quest'ultima alla penultima stampante inserita, naturalmente se la penultima esiste.
+
+Avviare dal main

@@ -1,0 +1,5 @@
+Per questo esercizio ho realizzato un banale programma, con cui
+costruendo il command come PrintStringCommand, si legge una stringa da input e la si 
+stampa, altrimenti con il command come CleanCommand si pulisce il terminale.
+
+Avviare con: g++ Main.cpp PrintStringCommand.cpp CleanCommand.cpp
