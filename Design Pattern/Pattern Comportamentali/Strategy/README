@@ -1,0 +1,12 @@
+Per questo esercizio ho realizzato un gioco di tennis molto semplificato, non si gioca così.
+Ogni tennista adotta una strategia che eventualmente può essere cambiata.
+La strategia attribuisce un range tra attacco e difesa.
+Si giocano due punti, finché uno dei due tennisti non distacca l'altro di due punti.
+Se il giocatore che attacca ha un punteggio più alto di quello che difende allora vince il
+punto, altrimenti lo vince chi è in posizione di difesa
+
+La classe Tennista rappresenta la classe Context. 
+La classe Strategia rappresenta la classe Strategy, che ha una rappresentazione di default ed
+estende le sottoclassi Attaccante, Difensiva e ServeAndVolley.
+
+Avviare con: g++ Main.cpp Difensiva.cpp Attaccante.cpp ServeAndVolley.cpp Tennista.cpp Campo.cpp Strategia.cpp

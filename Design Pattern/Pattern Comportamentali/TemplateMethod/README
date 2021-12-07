@@ -1,0 +1,22 @@
+Per questo esercizio mi sono basato sulla traccia data dal Prof a lezione.
+
+La traccia prevedeva di realizzare l'algoritmo del backtracking con il pattern
+template method.
+
+La classe Backtracking è la mia classe astratta dove metto lo scheletro dell'algoritmo,
+ed impongo alle sue sottoclassi concrete i metodi che devono essere implementati. 
+Il backtracking ha proprio questo vantaggio di avere una struttura standard ed a cambiare 
+sono sia l'oggetto soluzione da passargli ed i vari metodi in base all'opportuna traccia.
+
+Gli algoritmi backtracking implementati, di cui ho fornito le tracce nel package resources, 
+sono quelli risolti dal Prof. Cauteruccio, da una sua passata esercitazione. Con questo voglio dire
+che non mi sono concentrato sull'algoritmo in sé ma sull'applicazione del pattern.
+
+ParoleCongiunte e SubsetSum sono le due sottoclassi concrete di Backtracking che definiscono i metodi
+per risolvere le opportune tipologie di esercizi.
+
+La classe Soluzione è una classe di supporto, tramite la quale mi salvo sia i parametri forniti da input
+e dove, l'algoritmo del backtracking, prova a costruire la soluzione, se esiste.
+Nella classe Soluzione la lista dei termini passati da input è una lista di Object perché
+potrebbero essere stringhe oppure numeri, mentre la lista delle sol contiene gli indici della lista
+dello spazio.

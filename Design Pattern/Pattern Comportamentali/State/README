@@ -1,0 +1,17 @@
+Per questo esercizio ho svolto uno dei tre esercizi proposti dal Prof a lezione.
+L'esercizio consiste in un ascensore che cambia i suoi stati.
+Ho identificato tre stati: allarme, vai al piano e apri porta.
+
+Ho deciso di realizzarlo in C++ poiché volevo proporre la versione che il Professore ha 
+spiegato a lezione, ovvero dove il puntatore distutto e quindi ogni volta che chiamo un 
+nuovo stato viene distrutto quello precedente e ne viene creato uno nuovo.
+Nelle slide c'era la soluzione dove glis tati erano singleton e quindi venivano
+distrutti tutti al termine del programma.
+
+La classe Ascensore è la mia classe Context, la quale ha un puntatore alla classe astratta
+State. E' implementato nello stesso file c++ poiché hanno un attrivuto delle classi ciclico 
+la classe State e la classe Ascensore.
+
+La classe State, virtuale pura, ha tre stati concreti che fanno le loro operazioni.
+
+Avviare con il comando: g++ Main.cpp VaiAlPiano.cpp Allarme.cpp ApriPorta.cpp Ascensore.cpp
