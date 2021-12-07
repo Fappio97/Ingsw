@@ -1,0 +1,9 @@
+Per questo esercizio ho creato una chat dove ogni volta che uno degli utenti inseriti invia un messaggio, 
+gli altri lo ricevono come una notifica.
+
+La classe Publisher può aggiungere subscriber dal main, eliminare subscriber oppure notificare i suoi subscriber.
+La classe Chat, ovvero l'unica classe concreta di subscriber, in questo caso, è la classe che rappresenta i partecipantio alla chat.
+In questo caso, i vari utenti, rappresentati dalla classe Chat, possono inviare messaggi ed il Publisher notificherà la presenza di nuovi messaggi
+agli altri utenti.
+
+Avviare dal main

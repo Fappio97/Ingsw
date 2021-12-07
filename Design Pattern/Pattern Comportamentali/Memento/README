@@ -1,0 +1,6 @@
+Per questo esercizio, come richiesto dal Prof, ho realizzato un editor di testo molto semplice.
+L'opzione salva su file non c'entra nulla con il pattern in questione.
+
+Il caretaken non l'ho realizzato perché i salvataggi di memento si hanno ogni qual volta che inseriamo un nuovo carattere
+nella textarea, invece si ottengono i resume dei salvataggi tramite il bottono undo.
+

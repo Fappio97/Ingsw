@@ -1,0 +1,15 @@
+Per questo esercizio mi sono basato sulla traccia del prof di realizzare un form che cambiasse in base alla nazione
+scelta, poi in base alla regione, alla provincia ed al comune.
+
+Volevo realizzarlo soltanto per l'Italia, e non ho trovato un buon file dove c'erano province,città comuni ecc
+
+Il programma si limita esclusivamente, una volta selezionata la regione a limitare la scelta nel prossimo combobox
+alle province di quella determinata regione.
+
+Abbiamo il mediator che comunica con i vari elementi, in questo caso il componente unico che rispecchia il pattern
+è il comboBox che estende la classe Component.
+
+Quando facciamo una scelta, il componente, in questo caso il combobox, comunica con il mediator per fare la stampa 
+sulla sua textarea, mentre il mediator dice al combobox di aggiornare gli items del combobox.
+
+Avviare dal main
